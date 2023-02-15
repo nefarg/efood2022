@@ -80,7 +80,7 @@ from (
 where foo.city = bar.city and bar.city = breakfast_foo.city and breakfast_foo.city = breakfast_bar.city;
 
 
-drop table `efood2022-377414.main_assessment.user_orders`;
-drop table `efood2022-377414.main_assessment.city_per_cuisine_users`;
+drop table if exists `efood2022-377414.main_assessment.user_orders`;
+drop table if exists `efood2022-377414.main_assessment.city_per_cuisine_users`;
 
 END
